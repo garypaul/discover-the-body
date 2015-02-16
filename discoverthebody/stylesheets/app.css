@@ -1,0 +1,120 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+/* -----------------------------------------
+   Course Filtering
+----------------------------------------- */
+	table.courses {
+		width: 100%; 
+	}
+	.order-container {
+		display: inline-block;
+		vertical-align: top; 
+	}
+
+	.filter-up {
+		background: url(../images/up-arrow.jpg)	no-repeat; 
+		display: block; 
+		height: 8px;
+		width: 11px; 
+	}
+	.filter-down {
+		background: url(../images/down-arrow.jpg) no-repeat; 
+		display: block; 
+		height: 8px;
+		width: 11px;
+		margin-top: 3px;  		
+	}
+
+/* -----------------------------------------
+   Social Media
+----------------------------------------- */
+
+.at16nc.at16t_compact {
+	background: none;
+	display: inline;
+}
+/* -----------------------------------------
+   Social Media
+----------------------------------------- */
+.lesson-meta form {
+	float: left; 
+	margin-right: 10px; 
+}
+.quiz-buttons a.button {
+	float: left; 
+	margin-right: 10px;
+	padding: 21px 15px 18px !important;
+	color: #000;   
+}
+.lesson-course {
+	clear: both; 
+}
+
+/* -----------------------------------------
+   Your Profile
+----------------------------------------- */
+ul.menu li.login-only {
+	display: none; 
+}
+.status.alert-box {
+	display: none;
+}
+.status.alert-box p {
+	padding-bottom: 0
+}
+a#profile-courses.button {
+	line-height: 1.23em !important; 
+}
+.logged-in ul.menu li.login-only {
+	display: inline; 
+}
+
+#your-profile .form-table {
+    width: 100%;
+}
+#your-profile .form-table input {
+	width: 100% !important; 
+}
+#pass-strength-result {
+    float: none;
+}
+body.page-template-page-profile-php {
+	margin-top: -24px; 
+}
+/* -----------------------------------------
+   Login
+----------------------------------------- */
+
+.post_content .login {
+	border: 1px solid #DDDDDD;
+	padding: 20px; 
+	max-width: 400px;
+}
+.post_content .login.profile {
+	max-width: none;
+}
+.form-actions p {
+	display: none;
+}
+.form-actions p.header {
+	display: block; 
+}
+
+.login form input[type="text"], .login form input[type="password"]  {
+    width: 100% !important;
+}

@@ -1,0 +1,44 @@
+
+@font-face {font-family: 'Museo-700';src: url('webfonts/museo_2_0.eot');src: url('webfonts/museo_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_2_0.woff') format('woff'),url('webfonts/museo_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Museo-300';src: url('webfonts/museo_3_0.eot');src: url('webfonts/museo_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_3_0.woff') format('woff'),url('webfonts/museo_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Museo-500';src: url('webfonts/museo_4_0.eot');src: url('webfonts/museo_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_4_0.woff') format('woff'),url('webfonts/museo_4_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-500';src: url('webfonts/museo_5_0.eot');src: url('webfonts/museo_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_5_0.woff') format('woff'),url('webfonts/museo_5_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSans-500Italic';src: url('webfonts/museo_6_0.eot');src: url('webfonts/museo_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_6_0.woff') format('woff'),url('webfonts/museo_6_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSlab-500';src: url('webfonts/museo_8_0.eot');src: url('webfonts/museo_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_8_0.woff') format('woff'),url('webfonts/museo_8_0.ttf') format('truetype');}
+@font-face {font-family: 'MuseoSlab-500Italic';src: url('webfonts/museo_9_0.eot');src: url('webfonts/museo_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/museo_9_0.woff') format('woff'),url('webfonts/museo_9_0.ttf') format('truetype');}
+
+.Museo-700 { 
+	font-family: "Museo-700", Georgia, serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.Museo-300 { 
+	font-family: "Museo-300";
+	font-weight: normal;
+	font-style: normal;
+}
+.Museo-500 { 
+	font-family: "Museo-500";
+	font-weight: normal;
+	font-style: normal;
+}
+.MuseoSans-500 { 
+	font-family: "MuseoSans-500";
+	font-weight: normal;
+	font-style: normal;
+}
+.MuseoSans-500Italic { 
+	font-family: "MuseoSans-500Italic";
+	font-weight: normal;
+	font-style: normal;
+}
+.MuseoSlab-500 { 
+	font-family: "MuseoSlab-500";
+	font-weight: normal;
+	font-style: normal;
+}
+.MuseoSlab-500Italic { 
+	font-family: "MuseoSlab-500Italic";
+	font-weight: normal;
+	font-style: normal;
+}

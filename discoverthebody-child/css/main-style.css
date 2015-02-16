@@ -1,0 +1,1937 @@
+/* Main Text Color*/
+/* Button Style */
+/* Alt Button Style */
+/* ShareThis Button */
+/* line 1, scss/_custom.scss */
+.large-centered {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
+
+/* line 1, scss/_woocommerce.scss */
+.woocommerce-message:before {
+  content: "\2713";
+  font-family: sans-serif;
+}
+
+/* line 5, scss/_woocommerce.scss */
+.woocommerce-info:before {
+  background-color: #1e85be;
+  content: "i";
+  font-family: Times, Georgia, serif;
+  font-style: italic;
+}
+
+/* line 11, scss/_woocommerce.scss */
+.woocommerce-message, .woocommerce-info {
+  border-top: 3px solid #db4400;
+  background: #fcfbfc, #f7f6f7;
+  -webkit-box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: 0 0 2em;
+  padding: 1em 1em 1em 3.5em;
+  color: #5e5e5e;
+  position: relative;
+  overflow: hidden;
+}
+/* line 27, scss/_woocommerce.scss */
+.woocommerce-message:before, .woocommerce-info:before {
+  background-color: #db4400;
+  color: white;
+  width: 1.5em;
+  border-radius: 0 0 4px 4px;
+  padding: .5em 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+/* line 41, scss/_woocommerce.scss */
+.woocommerce-message .button, .woocommerce-info .button {
+  float: right;
+}
+
+/* line 45, scss/_woocommerce.scss */
+.single-product .product .summary {
+  width: auto;
+}
+
+/* line 48, scss/_woocommerce.scss */
+.woocommerce label.checkbox {
+  display: inline;
+  margin-right: 1em;
+}
+/* line 52, scss/_woocommerce.scss */
+.woocommerce .terms {
+  margin-top: 1em;
+}
+/* line 55, scss/_woocommerce.scss */
+.woocommerce .payment_methods label {
+  display: inline;
+}
+/* line 61, scss/_woocommerce.scss */
+.woocommerce td {
+  vertical-align: middle;
+}
+/* line 64, scss/_woocommerce.scss */
+.woocommerce .payment_methods {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 12px;
+  vertical-align: middle;
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid #dfdbdf;
+  margin: 0;
+  list-style: none;
+}
+/* line 74, scss/_woocommerce.scss */
+.woocommerce #payment {
+  background: #f7f6f7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 80, scss/_woocommerce.scss */
+.woocommerce .payment_box {
+  position: relative;
+  width: 96%;
+  padding: 1em 2%;
+  margin: 1em 0 1em 0;
+  font-size: 0.92em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 1.5em;
+  background: #ebe9eb;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ebe9eb), to(#dfdbdf));
+  background: -webkit-linear-gradient(#ebe9eb, #dfdbdf);
+  background: -moz-linear-gradient(center top, #ebe9eb 0%, #dfdbdf 100%);
+  background: -moz-gradient(center top, #ebe9eb 0%, #dfdbdf 100%);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  color: #5e5e5e;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+/* line 101, scss/_woocommerce.scss */
+.woocommerce .shop_table {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0px -1px 24px 0px;
+  text-align: left;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 5px;
+}
+/* line 108, scss/_woocommerce.scss */
+.woocommerce .shop_table th {
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 9px 12px;
+}
+/* line 113, scss/_woocommerce.scss */
+.woocommerce .shop_table td {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 12px;
+  vertical-align: middle;
+}
+/* line 120, scss/_woocommerce.scss */
+.woocommerce .cart .product-thumbnail img {
+  width: 32px;
+}
+/* line 123, scss/_woocommerce.scss */
+.woocommerce .cart .remove {
+  display: block;
+  font-size: 2em;
+  height: 1em;
+  width: 1em;
+  text-align: center;
+  line-height: 1;
+  border-radius: 100%;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 134, scss/_woocommerce.scss */
+.woocommerce .cart .remove:hover {
+  background-color: red;
+  color: white;
+}
+
+/*
+.woo-sc-box.alert {
+	background: $alert_red;
+	&:before {
+		content: '\f071';
+		color: $alert-red;
+		background-color: darken($alert-red, 10%);
+		border-radius: 100%;
+	}
+}
+.woo-sc-box {
+	margin: 1.387em 0 1.618em 0;
+	padding: 1em 1.618em;
+	border: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;	
+}
+*/
+/* line 2, scss/_home.scss */
+.home .course-price {
+  display: none;
+}
+
+/* line 2, scss/_products.scss */
+.single-product .product:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 7, scss/_products.scss */
+.single-product .images img {
+  float: left;
+  width: 25%;
+}
+/* line 11, scss/_products.scss */
+.single-product .woocommerce_tabs, .single-product .woocommerce-tabs {
+  margin: 0 0 2.618em;
+}
+/* line 13, scss/_products.scss */
+.single-product .woocommerce_tabs .tabs, .single-product .woocommerce-tabs .tabs {
+  display: none;
+}
+/* line 16, scss/_products.scss */
+.single-product .woocommerce_tabs .tabs li, .single-product .woocommerce-tabs .tabs li {
+  margin: 0 .53em 0 0;
+}
+/* line 18, scss/_products.scss */
+.single-product .woocommerce_tabs .tabs li a, .single-product .woocommerce-tabs .tabs li a {
+  border-right-width: 1px;
+  padding: .53em .857em !important;
+}
+/* line 23, scss/_products.scss */
+.single-product .woocommerce_tabs .panel, .single-product .woocommerce-tabs .panel {
+  padding: 1.618em;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 0 4px 4px 4px;
+  -moz-border-radius: 0 4px 4px 4px;
+  border-radius: 0 4px 4px 4px;
+}
+
+/* line 19, scss/main-style.scss */
+.st_sharethis_buttons {
+  font-style: normal;
+  font-weight: 700;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  font-size: 1.2em;
+  padding: 10px 21px 8px 16px;
+}
+
+/* line 32, scss/main-style.scss */
+.st_sharethis_buttons .stButton {
+  display: none !important;
+}
+
+/* line 35, scss/main-style.scss */
+div.panel {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  filter: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 45, scss/main-style.scss */
+html {
+  background: #121244;
+  font-size: 100%;
+}
+
+/* line 49, scss/main-style.scss */
+html.simple {
+  background: #fff;
+}
+
+/* line 52, scss/main-style.scss */
+body {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100%;
+  color: #333333;
+  line-height: 1.5em;
+  background: #efefef;
+}
+
+/* line 61, scss/main-style.scss */
+.page-wrap {
+  background: white;
+  padding: 20px 20px 40px;
+  max-width: 1140px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 30px rgba(102, 102, 102, 0.25);
+  -moz-box-shadow: 0 0 30px rgba(102, 102, 102, 0.25);
+  box-shadow: 0 0 30px rgba(102, 102, 102, 0.25);
+}
+
+/* line 68, scss/main-style.scss */
+.row {
+  min-width: 0;
+  width: 1140px;
+}
+
+/* line 72, scss/main-style.scss */
+::selection {
+  background: #A0A0A0;
+  color: white;
+}
+
+/* line 76, scss/main-style.scss */
+::-moz-selection {
+  background: #9ab549;
+  color: white;
+}
+
+/* line 80, scss/main-style.scss */
+.mobile {
+  display: none;
+}
+
+/* line 83, scss/main-style.scss */
+a {
+  font-style: normal;
+  font-weight: 500;
+  color: #333333;
+  text-decoration: underline;
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
+}
+
+/* line 90, scss/main-style.scss */
+a:hover {
+  -webkit-transition: 50ms ease;
+  -moz-transition: 50ms ease;
+  -o-transition: 50ms ease;
+  transition: 50ms ease;
+}
+
+/* line 95, scss/main-style.scss */
+a:hover,
+a:focus,
+a:active {
+  color: #A0A0A0;
+  text-decoration: none;
+}
+
+/* Image Link Opacity */
+/* line 100, scss/main-style.scss */
+a img {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+/* line 104, scss/main-style.scss */
+a:hover img {
+  opacity: 0.6;
+  -webkit-transition: opacity 0.05s ease;
+  -moz-transition: opacity 0.05s ease;
+  -o-transition: opacity 0.05s ease;
+  transition: opacity 0.05s ease;
+}
+
+/* Button Links */
+/* line 109, scss/main-style.scss */
+.button {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  /* Font Settings */
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: white;
+  font-size: 1.35em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: none;
+  white-space: inherit;
+  /* Background color and Gradient and Border */
+  background: #db4400;
+  /* Corners, Borders, and Padding */
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: .75em 1em .75em 1em;
+}
+
+/* line 134, scss/main-style.scss */
+a.button:hover {
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
+  background: #992f00;
+  color: white;
+}
+
+/* line 139, scss/main-style.scss */
+a.button:active {
+  top: 2px;
+}
+
+/* line 142, scss/main-style.scss */
+a.button.blue {
+  -webkit-transition: background 500ms ease;
+  -moz-transition: background 500ms ease;
+  -o-transition: background 500ms ease;
+  transition: background 500ms ease;
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  /* Font Settings */
+  color: black;
+  font-size: 1.35em !important;
+  line-height: 1 !important;
+  text-decoration: none;
+  text-transform: none !important;
+  white-space: inherit !important;
+  /* Background color and Gradient and Border */
+  background: #9ab549 !important;
+  /* Corners, Borders, and Padding */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 18px 11px 17px 13px !important;
+}
+
+/* line 168, scss/main-style.scss */
+a.button.blue:hover {
+  background: #4e650d !important;
+  color: white;
+}
+
+/* line 172, scss/main-style.scss */
+a.button.blue:active {
+  top: 2px;
+}
+
+/* line 175, scss/main-style.scss */
+.button.create-account {
+  background: #cc9900 !important;
+}
+
+/* line 178, scss/main-style.scss */
+.button.create-account:hover {
+  background: #997300 !important;
+}
+
+/* line 181, scss/main-style.scss */
+.button.sharethis-button {
+  background: white !important;
+  border: 1px solid #cccccc;
+  color: #333333;
+  margin-top: 0 !important;
+}
+
+/* line 187, scss/main-style.scss */
+.button.sharethis-button:hover {
+  background: #e6e6e6 !important;
+}
+
+/* Read More Link */
+/* line 191, scss/main-style.scss */
+a.read-more {
+  text-decoration: none;
+  text-transform: none;
+  display: inline;
+}
+
+/* Back to Top */
+/* line 197, scss/main-style.scss */
+.back-top {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+/* Pagination */
+/* line 202, scss/main-style.scss */
+.pagination {
+  font-size: 1.2em;
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* line 207, scss/main-style.scss */
+.pagination a {
+  text-decoration: none;
+}
+
+/* AddThis */
+/* line 211, scss/main-style.scss */
+#at_auth {
+  height: auto;
+}
+
+/* line 215, scss/main-style.scss */
+#at15pf,
+#at16pf {
+  height: 22px;
+}
+
+/* line 218, scss/main-style.scss */
+img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* line 222, scss/main-style.scss */
+img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+/* line 226, scss/main-style.scss */
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 231, scss/main-style.scss */
+a img.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* line 235, scss/main-style.scss */
+a img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+/* line 239, scss/main-style.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main List Style */
+/* line 245, scss/main-style.scss */
+ul {
+  list-style: url(../../images/bullet.png);
+  margin-left: 15px;
+}
+
+/* line 249, scss/main-style.scss */
+ul li {
+  margin-bottom: 0px;
+}
+
+/* line 252, scss/main-style.scss */
+ul li a {
+  text-decoration: none;
+}
+
+/* line 255, scss/main-style.scss */
+ul.menu {
+  list-style: none;
+}
+
+/* line 258, scss/main-style.scss */
+ul.menu li {
+  display: inline;
+}
+
+/* line 261, scss/main-style.scss */
+ul.menu li a {
+  text-decoration: none;
+}
+
+/* line 264, scss/main-style.scss */
+ul.menu li:before {
+  content: none;
+}
+
+/* line 267, scss/main-style.scss */
+p {
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 15px;
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+/* line 280, scss/main-style.scss */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: "Museo-700", Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #333333;
+  font-variant-ligatures: common-ligatures;
+}
+
+/* line 292, scss/main-style.scss */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
+
+/* line 295, scss/main-style.scss */
+h1, .h1 {
+  line-height: 1em;
+  font-size: 2.3em;
+  padding-bottom: 5px;
+}
+
+/* line 300, scss/main-style.scss */
+h2, .h2 {
+  line-height: 1em;
+  font-size: 1.75em;
+}
+
+/* line 304, scss/main-style.scss */
+h3, .h3 {
+  line-height: 1em;
+  font-size: 1.55em;
+}
+
+/* line 308, scss/main-style.scss */
+h4, .h4 {
+  line-height: 1em;
+  font-size: 1.2em;
+}
+
+/* line 313, scss/main-style.scss */
+h5, .h5,
+h6, .h6 {
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+
+/* line 317, scss/main-style.scss */
+div.gform_wrapper {
+  margin: 0;
+}
+
+/* line 320, scss/main-style.scss */
+div.gform_wrapper li:before {
+  content: none;
+}
+
+/* line 323, scss/main-style.scss */
+div.gform_wrapper img {
+  width: auto;
+}
+
+/* line 326, scss/main-style.scss */
+div.gform_wrapper .gform_heading {
+  margin-bottom: 0;
+}
+
+/* line 329, scss/main-style.scss */
+div.gform_wrapper h3.gform_title {
+  margin: 0;
+}
+
+/* line 332, scss/main-style.scss */
+div.gform_wrapper .top_label .gfield_label {
+  font-weight: 700;
+  font-size: 0.9375em;
+}
+
+/* line 336, scss/main-style.scss */
+div.gform_wrapper .top_label .gfield_label .gfield_required {
+  color: red;
+}
+
+/* line 341, scss/main-style.scss */
+div.gform_wrapper input.input-text,
+div.gform_wrapper textarea,
+div.gform_wrapper select {
+  margin-bottom: 0;
+}
+
+/* line 344, scss/main-style.scss */
+div.gform_wrapper .gform_footer {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+/* line 349, scss/main-style.scss */
+div.gform_wrapper .gform_footer input.button,
+div.gform_wrapper .gform_footer input[type="submit"] {
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  /* Font Settings */
+  color: black;
+  font-size: 1.35em !important;
+  line-height: 1 !important;
+  text-decoration: none;
+  text-transform: none !important;
+  white-space: inherit !important;
+  /* Background color and Gradient and Border */
+  background: #9ab549 !important;
+  /* Corners, Borders, and Padding */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 18px 11px 17px 13px !important;
+}
+
+/* line 379, scss/main-style.scss */
+div.gform_wrapper .gform_footer input.button:hover,
+div.gform_wrapper .gform_footer input[type="submit"]:hover {
+  background: #4e650d !important;
+  color: white;
+}
+
+/* line 384, scss/main-style.scss */
+div.gform_wrapper .gform_footer input.button:active,
+div.gform_wrapper .gform_footer input[type="submit"]:active {
+  top: 2px;
+}
+
+/* line 387, scss/main-style.scss */
+.gform_wrapper form .gform_footer {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+/* line 391, scss/main-style.scss */
+.gfield {
+  margin-bottom: 1em;
+}
+
+/* line 394, scss/main-style.scss */
+form label {
+  text-transform: uppercase;
+}
+
+/* line 403, scss/main-style.scss */
+form input[type="text"],
+form input[type="url"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form input[type="password"],
+form textarea {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #333;
+  font-size: 1em;
+  background: #efefef;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  box-shadow: none;
+  padding: 5px 10px;
+  text-indent: 10px;
+}
+
+/* line 423, scss/main-style.scss */
+form input[type="text"]:hover,
+form input[type="url"]:hover,
+form input[type="email"]:hover,
+form input[type="tel"]:hover,
+form input[type="number"]:hover,
+form input[type="password"]:hover,
+form textarea:hover {
+  background: #A0A0A0;
+  color: white;
+}
+
+/* line 433, scss/main-style.scss */
+form input[type="text"]:focus,
+form input[type="url"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form input[type="number"]:focus,
+form input[type="password"]:focus,
+form textarea:focus {
+  background: #A0A0A0;
+  color: white;
+}
+
+/* line 437, scss/main-style.scss */
+form input[type=submit] {
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  /* Font Settings */
+  color: black;
+  font-size: 1.35em !important;
+  line-height: 1 !important;
+  text-decoration: none;
+  text-transform: none !important;
+  white-space: inherit !important;
+  /* Background color and Gradient and Border */
+  background: #db4400;
+  /* Corners, Borders, and Padding */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 18px 11px 17px 13px !important;
+}
+
+/* line 462, scss/main-style.scss */
+form input[type=submit]:hover {
+  background: #992f00;
+  color: white;
+}
+
+/* line 466, scss/main-style.scss */
+form input[type=submit]:active {
+  top: 2px;
+}
+
+/* line 469, scss/main-style.scss */
+.top {
+  background: #121244;
+  padding: 15px 0 0;
+}
+
+/* line 473, scss/main-style.scss */
+.top #search {
+  margin: 0;
+  width: 100% !important;
+}
+
+/* line 477, scss/main-style.scss */
+.top #top-nav {
+  text-align: right;
+  text-transform: capitalize;
+}
+
+/* line 481, scss/main-style.scss */
+.top #top-nav li {
+  font-size: 1.5em;
+}
+
+/* line 484, scss/main-style.scss */
+.top #top-nav li + li:before {
+  color: white;
+  content: "|";
+  padding: 0 8px;
+}
+
+/* line 489, scss/main-style.scss */
+.top #top-nav li a {
+  color: white;
+  font-weight: 300;
+}
+
+/* line 493, scss/main-style.scss */
+.top #top-nav li a:hover {
+  color: #DBDBDB;
+}
+
+/* line 496, scss/main-style.scss */
+header[role="banner"] {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* line 500, scss/main-style.scss */
+header[role="banner"] #logo {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6b879f;
+  font-size: 4em;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 512, scss/main-style.scss */
+header[role="banner"] #logo span {
+  color: #A0A0A0;
+}
+
+/* line 515, scss/main-style.scss */
+header[role="banner"] #logo-mobile {
+  display: none;
+}
+
+/* line 518, scss/main-style.scss */
+header[role="banner"] #main-nav {
+  height: auto;
+  margin: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 525, scss/main-style.scss */
+header[role="banner"] #main-nav > li {
+  float: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding: 10px 0;
+  top: 0;
+  vertical-align: top;
+}
+
+/* line 535, scss/main-style.scss */
+header[role="banner"] #main-nav > li a {
+  font-style: normal;
+  font-weight: 500;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: black;
+  font-size: 1.4em;
+  padding: 8px 11px 10px 13px;
+}
+
+/* line 548, scss/main-style.scss */
+header[role="banner"] #main-nav > li a:hover {
+  background: #666666;
+  color: white;
+}
+
+/* line 552, scss/main-style.scss */
+header[role="banner"] #main-nav > li + li {
+  margin-left: 10px;
+}
+
+/* line 555, scss/main-style.scss */
+header[role="banner"] #main-nav > li.current-menu-item a {
+  background: #121244;
+  color: white;
+}
+
+/* line 559, scss/main-style.scss */
+header[role="banner"] .breadcrumbs {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* line 567, scss/main-style.scss */
+header[role="banner"] .breadcrumbs a {
+  text-decoration: none;
+}
+
+/* line 570, scss/main-style.scss */
+.mobile-search {
+  display: none;
+}
+
+/* line 573, scss/main-style.scss */
+.home #content .six {
+  margin-top: 25px;
+}
+
+/* line 576, scss/main-style.scss */
+.home #content .six:nth-of-type(2n+1) {
+  clear: both;
+}
+
+/* line 580, scss/main-style.scss */
+.home .page-intro p,
+.home .page-intro li {
+  font-size: 1.55em;
+  line-height: 1.3em;
+}
+
+/* line 584, scss/main-style.scss */
+.home .callouts h2 {
+  text-align: center;
+}
+
+/* line 587, scss/main-style.scss */
+.home .callouts p {
+  font-size: 1.35em;
+}
+
+/* line 590, scss/main-style.scss */
+.home .callout-container {
+  min-height: 250px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  display: table;
+  margin: 10px;
+  padding: 25px 50px;
+}
+
+/* line 599, scss/main-style.scss */
+.home .callout-content p {
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 603, scss/main-style.scss */
+.home .events {
+  list-style: none;
+  margin: 30px 0 0;
+}
+
+/* line 607, scss/main-style.scss */
+.home .events li {
+  border-bottom: 1px solid #899fb2;
+  padding: 7px 0 7px 25px;
+}
+
+/* line 611, scss/main-style.scss */
+.home .events li strong {
+  font-size: 1.2em;
+  padding-right: 50px;
+}
+
+/* line 615, scss/main-style.scss */
+.home .events li time {
+  padding-right: 30px;
+}
+
+/* line 618, scss/main-style.scss */
+.home .type-course .entry p {
+  padding-bottom: 5px;
+}
+
+/* line 621, scss/main-style.scss */
+.home .flex-video {
+  padding-bottom: 52.5%;
+}
+
+/* FLEX SLIDER */
+/* line 625, scss/main-style.scss */
+.flexslider {
+  border: none;
+  background: none;
+  padding-top: 4.5%;
+  padding-bottom: 70px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* line 637, scss/main-style.scss */
+.flexslider .slides {
+  list-style: none;
+}
+
+/* line 640, scss/main-style.scss */
+.flexslider .slides li {
+  position: relative;
+  left: -7px;
+}
+
+/* line 644, scss/main-style.scss */
+.flexslider .slides li .slider-text {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 5%;
+  color: white;
+  padding: 25px;
+}
+
+/* line 654, scss/main-style.scss */
+.flexslider .slides li .slider-text h2 {
+  padding-bottom: 15px;
+}
+
+/* line 657, scss/main-style.scss */
+.flexslider .slides li .slider-text p {
+  display: inline;
+}
+
+/* line 660, scss/main-style.scss */
+.flexslider .slides li .slider-text .read-more {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  display: inline;
+}
+
+/* line 665, scss/main-style.scss */
+.flexslider .flex-control-nav {
+  bottom: 0px;
+  left: auto;
+  margin-left: 0px;
+  position: absolute;
+  right: 5%;
+  list-style: none;
+}
+
+/* line 673, scss/main-style.scss */
+.flexslider .flex-control-nav a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 688, scss/main-style.scss */
+.flexslider .flex-direction-nav {
+  display: none;
+}
+
+/* line 691, scss/main-style.scss */
+.page-template-page-courses-php div.filter {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  padding: 14px 12px;
+}
+
+/* line 701, scss/main-style.scss */
+.page-template-page-courses-php div.filter h2 {
+  float: left;
+}
+
+/* line 704, scss/main-style.scss */
+.page-template-page-courses-php div.filter .close-filters {
+  float: right;
+  text-decoration: none;
+}
+
+/* line 708, scss/main-style.scss */
+.page-template-page-courses-php div.filter .close-filters:before {
+  background: url(../../images/down-arrow.png) no-repeat;
+  content: "";
+  padding: 0 7px 0 14px;
+  position: relative;
+  top: 3px;
+}
+
+/* line 715, scss/main-style.scss */
+.page-template-page-courses-php div.filter .close-filters + .panel {
+  clear: both;
+}
+
+/* line 718, scss/main-style.scss */
+.page-template-page-courses-php div.filter .panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #6b879f;
+  color: white;
+  display: table;
+  font-weight: 700;
+  margin: 35px 0 15px;
+  padding: 10px 25px;
+}
+
+/* line 732, scss/main-style.scss */
+.page-template-page-courses-php div.filter .panel p {
+  padding-bottom: 0;
+}
+
+/* line 735, scss/main-style.scss */
+.page-template-page-courses-php div.filter .block-grid h4 {
+  color: #666666;
+  padding-bottom: 5px;
+}
+
+/* line 739, scss/main-style.scss */
+.page-template-page-courses-php div.filter .block-grid ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 743, scss/main-style.scss */
+.page-template-page-courses-php .course-list {
+  margin-top: 35px;
+}
+
+/* line 746, scss/main-style.scss */
+.page-template-page-courses-php .back-top {
+  float: right;
+}
+
+/* line 749, scss/main-style.scss */
+ul.filters {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 753, scss/main-style.scss */
+ul.filters li {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+/* line 757, scss/main-style.scss */
+ul.filters li ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 761, scss/main-style.scss */
+ul.filters li ul li {
+  margin-bottom: 0;
+}
+
+/* line 764, scss/main-style.scss */
+.filters-container {
+  margin-bottom: 20px;
+}
+
+/* line 767, scss/main-style.scss */
+.my-filters .filter {
+  color: black;
+  border-radius: 20px;
+  background: #dddddd;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* line 775, scss/main-style.scss */
+.my-filters .filter:after {
+  content: " x";
+}
+
+/* line 778, scss/main-style.scss */
+.my-filters .filter:hover {
+  background: #A0A0A0;
+  color: white;
+}
+
+/* line 782, scss/main-style.scss */
+.my-filters .filter + .filter {
+  padding-left: 10px;
+}
+
+/* line 785, scss/main-style.scss */
+table.courses {
+  border: none;
+  padding: 0px 0px 10px;
+  border-collapse: collapse;
+}
+
+/* line 790, scss/main-style.scss */
+table.courses a {
+  font-family: "museo", serif;
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* line 797, scss/main-style.scss */
+table.courses thead,
+table.courses tbody tr {
+  background: none;
+}
+
+/* line 800, scss/main-style.scss */
+table.courses tbody {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* line 804, scss/main-style.scss */
+table.courses th {
+  font-family: "Museo-700", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25em;
+  min-width: 113px;
+  background: #121244;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 816, scss/main-style.scss */
+table.courses thead :first-child {
+  border-top-left-radius: 3px;
+}
+
+/* line 819, scss/main-style.scss */
+table.courses thead :last-child {
+  border-top-right-radius: 3px;
+}
+
+/* line 822, scss/main-style.scss */
+table.courses tr:nth-child(even) td {
+  background: #efefef;
+}
+
+/* line 825, scss/main-style.scss */
+table.courses td {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+/* line 831, scss/main-style.scss */
+table.courses .courses-col-name {
+  font-family: 'Museo-300', Georgia, serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* line 837, scss/main-style.scss */
+table.courses .summary p {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+/* Single Course */
+/* line 842, scss/main-style.scss */
+.single-course #main header.twelve {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+/* line 853, scss/main-style.scss */
+.single-course #main .author {
+  font-size: 0.6em;
+  padding-left: 40px;
+}
+
+/* line 857, scss/main-style.scss */
+.single-course #main .button {
+  font-size: 1.2em !important;
+}
+
+/* line 860, scss/main-style.scss */
+.single-course #main .button + .button {
+  margin-top: 10px;
+}
+
+/* line 863, scss/main-style.scss */
+.single-course #main h2 {
+  padding-bottom: 15px;
+}
+
+/* line 866, scss/main-style.scss */
+.single-course #main .lesson-content h2 {
+  color: #9ab549;
+}
+
+/* line 869, scss/main-style.scss */
+.single-course #main .entry.fix h2 {
+  color: #6b879f;
+}
+
+/* line 872, scss/main-style.scss */
+.single-course #main article .row + .row {
+  margin-top: 1em;
+}
+
+/* line 882, scss/main-style.scss */
+.courseMeta-item {
+  float: left;
+  margin-right: 4em;
+}
+
+/* line 886, scss/main-style.scss */
+.courseMeta-item span {
+  display: block;
+}
+
+/* line 889, scss/main-style.scss */
+.courseMeta-title {
+  font-weight: bold;
+}
+
+/* line 894, scss/main-style.scss */
+#main .course-lessons {
+  list-style: none;
+}
+
+/* line 897, scss/main-style.scss */
+#main .course-lessons .current-lesson {
+  background: #9ab549;
+}
+
+/* line 900, scss/main-style.scss */
+#main .course-lessons .current-lesson h6 a:hover {
+  color: white;
+}
+
+/* line 903, scss/main-style.scss */
+#main .course-lessons .current-lesson p.lesson-meta {
+  color: #444 !important;
+}
+
+/* line 906, scss/main-style.scss */
+#main .course-lessons .current-lesson .lesson-status.complete {
+  display: none;
+}
+
+/* line 909, scss/main-style.scss */
+#main .course {
+  padding: 1em 15px 1em;
+  margin: 0;
+}
+
+/* line 913, scss/main-style.scss */
+#main .course .course-meta {
+  margin-right: 3px;
+  position: static;
+}
+
+/* line 918, scss/main-style.scss */
+#main .course .course-meta .course-start {
+  color: white;
+  font-size: 17px !important;
+  margin-top: 0;
+  padding-bottom: 15px !important;
+}
+
+/* line 924, scss/main-style.scss */
+.summary-overview {
+  padding-top: 20px;
+}
+
+/* Single Author */
+/* line 928, scss/main-style.scss */
+.single-course-authors h2 {
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+/* line 932, scss/main-style.scss */
+.single-course-authors #sidebar-author {
+  margin-top: 65px;
+}
+
+/* line 936, scss/main-style.scss */
+.quiz li input,
+.quiz li label {
+  display: inline;
+}
+
+/* line 939, scss/main-style.scss */
+.page-template-page-instructors-php .post_content {
+  margin-bottom: 15px;
+}
+
+/* line 942, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list .author {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 15px 0;
+}
+
+/* line 953, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list .author + .author {
+  margin-top: 15px;
+}
+
+/* line 956, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list h2 {
+  padding-bottom: 10px;
+}
+
+/* line 959, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list .author-info a {
+  text-decoration: underline;
+}
+
+/* line 962, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list .author-courses ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 966, scss/main-style.scss */
+.page-template-page-instructors-php .instructor-list .author-courses ul li + li {
+  margin-top: 15px;
+}
+
+/* line 969, scss/main-style.scss */
+.page-template-page-testimonials-php h1 {
+  padding-bottom: 20px;
+}
+
+/* line 972, scss/main-style.scss */
+.page-template-page-testimonials-php h4 {
+  padding: 5px 0 20px;
+}
+
+/* line 976, scss/main-style.scss */
+.page-template-page-case-studies-php h1,
+.page-template-page-case-studies-php h4 {
+  padding-bottom: 20px;
+}
+
+/* line 979, scss/main-style.scss */
+.page-template-page-case-studies-php .back-top {
+  float: right;
+}
+
+/* line 982, scss/main-style.scss */
+.page-template-page-case-studies-php .case-study + .case-study {
+  margin-top: 40px;
+}
+
+/* line 985, scss/main-style.scss */
+blockquote {
+  border: none;
+  padding: 0;
+}
+
+/* line 989, scss/main-style.scss */
+blockquote p {
+  color: #333333;
+}
+
+/* line 992, scss/main-style.scss */
+blockquote p:before {
+  content: '“';
+  color: #333333;
+  font-size: 5.637em;
+  padding-right: 10px;
+  position: relative;
+  top: 40px;
+}
+
+/* line 1000, scss/main-style.scss */
+footer[role='contentinfo'] {
+  background: #121244;
+  margin-top: 0px;
+  padding: 25px 0;
+}
+
+/* line 1005, scss/main-style.scss */
+footer[role=contentinfo] #footer-nav {
+  margin: 0;
+  text-align: center;
+}
+
+/* line 1009, scss/main-style.scss */
+footer[role=contentinfo] #footer-nav li a {
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  font-size: 1.35em;
+}
+
+/* line 1015, scss/main-style.scss */
+footer[role=contentinfo] #footer-nav li a:hover {
+  color: #992f00;
+}
+
+/* line 1018, scss/main-style.scss */
+footer[role=contentinfo] #footer-nav li + li {
+  margin-left: 40px;
+}
+
+/* line 1021, scss/main-style.scss */
+footer[role=contentinfo] #footer-nav li.current-menu-item a {
+  color: #db4400;
+}
+
+/* line 1024, scss/main-style.scss */
+footer[role=contentinfo] .footer-bottom {
+  margin-top: 90px;
+  text-align: center;
+}
+
+/* line 1028, scss/main-style.scss */
+footer[role=contentinfo] .legal {
+  color: white;
+  display: inline;
+  font-size: 0.9em;
+}
+
+/* line 1033, scss/main-style.scss */
+footer[role=contentinfo] #legal-nav {
+  display: inline;
+  margin-left: 5px;
+}
+
+/* line 1037, scss/main-style.scss */
+footer[role=contentinfo] #legal-nav li a {
+  color: white;
+  font-size: 0.9em;
+}
+
+/* line 1041, scss/main-style.scss */
+footer[role=contentinfo] #legal-nav li a:hover {
+  color: #A0A0A0;
+}
+
+/* line 1044, scss/main-style.scss */
+footer[role=contentinfo] #legal-nav li + li:before {
+  color: white;
+  content: "|";
+  padding: 0 7px 0 3px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1051, scss/main-style.scss */
+  h2,
+  h3 {
+    font-size: 1.3em;
+  }
+
+  /* line 1054, scss/main-style.scss */
+  .home .callouts h2 {
+    min-height: 35px;
+  }
+
+  /* line 1057, scss/main-style.scss */
+  .home .callout-container {
+    display: block;
+    padding: 10px 25px;
+  }
+
+  /* line 1061, scss/main-style.scss */
+  .home .callout-container .callout-button {
+    float: none;
+    text-align: center;
+    width: auto;
+  }
+
+  /* line 1066, scss/main-style.scss */
+  .home .events li strong {
+    display: block;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1074, scss/main-style.scss */
+  .desktop {
+    display: none;
+  }
+
+  /* line 1077, scss/main-style.scss */
+  .mobile {
+    display: inherit;
+  }
+
+  /* line 1080, scss/main-style.scss */
+  .top #top-nav {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  /* line 1085, scss/main-style.scss */
+  .top form .six.columns {
+    width: 100% !important;
+  }
+
+  /* line 1088, scss/main-style.scss */
+  .top form .six.columns input {
+    width: 100%;
+  }
+
+  /* line 1091, scss/main-style.scss */
+  .summary-overview .button {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1096, scss/main-style.scss */
+  header[role="banner"] #logo {
+    display: none;
+  }
+
+  /* line 1099, scss/main-style.scss */
+  header[role="banner"] #logo-mobile {
+    display: inherit !important;
+  }
+
+  /* line 1102, scss/main-style.scss */
+  .top {
+    background: none;
+    padding: 10px 0 2px;
+  }
+
+  /* line 1106, scss/main-style.scss */
+  .top .six.columns:first-of-type {
+    display: none;
+  }
+
+  /* line 1109, scss/main-style.scss */
+  .top #top-nav {
+    margin-bottom: 0;
+  }
+
+  /* line 1112, scss/main-style.scss */
+  .top #top-nav li {
+    font-size: 0.9em;
+  }
+
+  /* line 1115, scss/main-style.scss */
+  .top #top-nav li a {
+    color: #6b879f;
+    font-weight: 500;
+  }
+
+  /* line 1119, scss/main-style.scss */
+  .top #top-nav li a:hover {
+    color: #A0A0A0;
+  }
+
+  /* line 1122, scss/main-style.scss */
+  .top #top-nav li + li:before {
+    color: #6b879f;
+  }
+
+  /* line 1125, scss/main-style.scss */
+  .mobile-search {
+    display: inherit;
+    margin-top: 8px;
+  }
+
+  /* line 1129, scss/main-style.scss */
+  .mobile-search form input {
+    border: 1px solid #cccccc;
+  }
+
+  /* line 1132, scss/main-style.scss */
+  header[role="banner"] {
+    margin-top: 0;
+  }
+
+  /* line 1135, scss/main-style.scss */
+  header[role="banner"] nav.main {
+    padding: 0;
+  }
+
+  /* line 1138, scss/main-style.scss */
+  header[role="banner"] .mobile-search form input {
+    margin: 0 auto;
+  }
+
+  /* line 1141, scss/main-style.scss */
+  header[role="banner"] #main-nav {
+    background: #6b879f;
+  }
+
+  /* line 1144, scss/main-style.scss */
+  header[role="banner"] #main-nav li a {
+    color: white;
+    font-size: 0.9em;
+    padding: 0;
+  }
+
+  /* line 1149, scss/main-style.scss */
+  header[role="banner"] #main-nav li a:hover {
+    background: none;
+    color: #A0A0A0;
+  }
+
+  /* line 1153, scss/main-style.scss */
+  header[role="banner"] #main-nav li.current-menu-item a {
+    background: none;
+  }
+
+  /* line 1156, scss/main-style.scss */
+  header[role="banner"] #main-nav li + li {
+    margin-left: 15px;
+  }
+
+  /* line 1159, scss/main-style.scss */
+  footer[role="contentinfo"] {
+    padding: 15px 0 30px;
+  }
+
+  /* line 1162, scss/main-style.scss */
+  footer[role="contentinfo"] .columns {
+    padding: 0 35px;
+  }
+
+  /* line 1165, scss/main-style.scss */
+  footer[role="contentinfo"] #footer-nav {
+    text-align: left;
+  }
+
+  /* line 1168, scss/main-style.scss */
+  footer[role="contentinfo"] #footer-nav li {
+    display: list-item;
+  }
+
+  /* line 1171, scss/main-style.scss */
+  footer[role="contentinfo"] #footer-nav li a {
+    font-size: 1em;
+  }
+
+  /* line 1174, scss/main-style.scss */
+  footer[role="contentinfo"] #footer-nav li + li {
+    margin-left: 0;
+  }
+
+  /* line 1177, scss/main-style.scss */
+  footer[role="contentinfo"] .footer-bottom {
+    margin-top: 15px;
+  }
+
+  /* line 1180, scss/main-style.scss */
+  .home #content .callouts + .callouts {
+    margin-top: 0;
+  }
+
+  /* line 1183, scss/main-style.scss */
+  .home .page-intro {
+    display: none;
+  }
+
+  /* line 1186, scss/main-style.scss */
+  .home .main-video {
+    padding: 0;
+  }
+
+  /* line 1189, scss/main-style.scss */
+  .home .callouts h2 {
+    display: none;
+  }
+
+  /* line 1192, scss/main-style.scss */
+  .home .featured-courses {
+    display: none;
+  }
+
+  /* line 1195, scss/main-style.scss */
+  .home .callout-container {
+    display: table;
+    margin: 10px 35px;
+    padding: 15px 18px;
+  }
+
+  /* line 1200, scss/main-style.scss */
+  .home .callout-container .callout-image {
+    float: left;
+    width: 41.6667% !important;
+  }
+
+  /* line 1204, scss/main-style.scss */
+  .home .callout-container .callout-content {
+    display: none;
+  }
+
+  /* line 1207, scss/main-style.scss */
+  .home .callout-container .callout-button {
+    float: left;
+    width: 58.3333% !important;
+  }
+
+  /* line 1211, scss/main-style.scss */
+  .home .upcoming-events {
+    padding: 0;
+  }
+
+  /* line 1214, scss/main-style.scss */
+  .home .upcoming-events h3 {
+    margin: 0 35px;
+  }
+
+  /* line 1217, scss/main-style.scss */
+  .home .events li {
+    border-bottom: 2px solid #899fb2;
+    padding: 7px 35px;
+  }
+
+  /* line 1221, scss/main-style.scss */
+  .breadcrumbs {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 1226, scss/main-style.scss */
+  header[role="banner"] #logo {
+    font-size: 2.4em;
+  }
+
+  /* line 1229, scss/main-style.scss */
+  header[role="banner"] #main-nav li + li {
+    margin-left: 10px;
+  }
+}
